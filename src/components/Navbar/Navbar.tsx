@@ -72,7 +72,7 @@ const Navbar = () => {
             />
           </a>
           <img
-            className={`w-[50px] duration-300 ${navbar ? "invert" : null}`}
+            className={`w-[45px] duration-300 ${navbar ? "invert" : null}`}
             src={menu}
             alt="Menu"
             onClick={() => setToggle((toggle) => !toggle)}
