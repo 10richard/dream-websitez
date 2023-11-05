@@ -1,7 +1,8 @@
 import { useState } from "react";
-import arrowUp from "../assets/arrow-up.png";
-import logo from "../assets/logo.png";
-import menu from "../assets/close-menu.svg";
+import { NavbarList } from "./NavbarList";
+import arrowUp from "../../assets/arrow-up.png";
+import logo from "../../assets/logo.png";
+import menu from "../../assets/close-menu.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -63,11 +64,13 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between w-full px-5 py-3">
-          <img
-            className={`w-[150px] duration-300 ${navbar ? "invert" : null}`}
-            src={logo}
-            alt="Dreamwebsitez logo"
-          />
+          <a href="#hero">
+            <img
+              className={`w-[150px] duration-300 ${navbar ? "invert" : null}`}
+              src={logo}
+              alt="Dreamwebsitez logo"
+            />
+          </a>
           <img
             className={`w-[50px] duration-300 ${navbar ? "invert" : null}`}
             src={menu}
@@ -78,25 +81,15 @@ const Navbar = () => {
 
         {/* Make the navbar translate down on toggle */}
         <ul
-          className={`hamburger-menu flex flex-col gap-10 bg-white w-full font-bold pl-10 py-10 ${
+          className={`flex flex-col gap-10 bg-white w-full font-bold pl-10 py-10 ${
             toggle ? null : "hidden"
           }`}
         >
-          <li className="hover:text-pink">
-            <a href="#benefits">Benefits</a>
-          </li>
-          <li className="hover:text-pink">
-            <a href="#recentwork">Recent Work</a>
-          </li>
-          <li className="hover:text-pink">
-            <a href="#pricing">Pricing</a>
-          </li>
-          <li className="hover:text-pink">
-            <a href="#faq">FAQs</a>
-          </li>
-          <li className="hover:text-pink">
-            <p className="contact">Contact</p>
-          </li>
+          {NavbarList.map((nav, idx) => (
+            <li key={idx} className="hover:text-pink">
+              <a href={`#${nav.link}`}>{nav.name}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
