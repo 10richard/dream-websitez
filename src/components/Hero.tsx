@@ -5,23 +5,22 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex justify-center items-center bg-primary h-[100vh] relative overflow-hidden"
+      className="flex justify-center items-center bg-primary h-[90vh] relative overflow-hidden"
     >
-      <div className="hero-text z-30 w-[900px] flex flex-col gap-5 text-center">
+      <div className="hero-text z-30 w-[900px] flex flex-col gap-5 text-center min-[785px]:mt-28 mt-20">
         <h1 className="font-bold text-7xl max-[800px]:text-5xl">
           Transforming Dreams into Digital Reality
         </h1>
         <h2 className="text-2xl"> Empowering your online presence.</h2>
 
-        <div className="mt-10 relative hover:-translate-y-2 duration-300">
-          <a
-            className="font-bold bg-black text-white px-10 py-4 rounded-xl text-lg cursor-pointer"
-            href="#pricing"
-          >
+        <div className="mt-10 bg-black text-white w-[250px] self-center cursor-pointer px-10 py-4 rounded-xl relative hover:-translate-y-2 duration-300">
+          <a className="font-bold text-lg" href="#pricing">
             See plans
           </a>
         </div>
       </div>
+
+      {/* Have little clouds moving in the background? */}
 
       <div className="">
         <img
