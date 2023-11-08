@@ -63,7 +63,7 @@ const Navbar = () => {
           navbar ? "bg-black bg-opacity-70" : "bg-transparent"
         }`}
       >
-        <div className="flex justify-between w-full px-5 py-3">
+        <div className="flex justify-between w-full px-5 py-2">
           <a href="#hero">
             <img
               className={`w-[150px] duration-300 ${navbar ? "invert" : null}`}
