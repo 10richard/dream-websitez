@@ -12,7 +12,7 @@ const ClientsCarousel = () => {
   return (
     <div className="bg-black py-4 relative">
       <div className="absolute -top-5 left-10 z-30 -rotate-3 bg-white px-3 py-2 rounded-xl">
-        <h1 className="font-bold">Our Clients</h1>
+        <h1 className="font-bold">Top Clients</h1>
       </div>
 
       <div className="w-full inline-flex flex-nowrap overflow-hidden">
