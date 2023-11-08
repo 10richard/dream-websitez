@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fixed-navbar {
+    animation-duration: 2.5s;
+    animation-name: slideinnavbar;
+}
+
+.hero-text, #benefits {
+    animation-duration: 1s;
+    animation-name: slideinfrombottom;
+}
+
+.cloud-right {
+    animation-duration: 1.5s;
+    animation-name: slideincloudfromright;
+}
+
+.cloud-left {
+    animation-duration: 1.5s;
+    animation-name: slideincloudfromleft;
+}
+
+
+@keyframes slideinnavbar {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 2rem;
+    }
+}
+
+@keyframes slideinfrombottom {
+    from {
+        transform: translateY(100px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes slideincloudfromright {
+    from {
+        right: -100%;
+    }
+    to {
+        right: -15%;
+    }
+}
+
+@keyframes slideincloudfromleft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: -12%;
+    }
+}
+
