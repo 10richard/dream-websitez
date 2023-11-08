@@ -5,11 +5,17 @@ import Lottie from "lottie-react";
 const Benefits = () => {
   return (
     <section id="benefits" className="flex justify-center w-full py-20">
-      <div className="flex flex-col justify-center items-center text-center gap-28">
-        <h1 className="text-5xl font-bold">What's Included</h1>
-        <div className="flex flex-wrap items-center justify-center gap-24">
+      <div className="flex flex-col justify-center items-center text-center gap-16">
+        <div className="grid gap-5">
+          <h1 className="text-5xl font-bold">What's Included</h1>
+          <p className="text-xl">Our Offerings.</p>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-10">
           {BenefitsList.map((benefit, idx) => (
-            <div key={idx} className="flex flex-col items-center">
+            <div
+              key={idx}
+              className="flex flex-col items-center border border-black p-10 rounded-lg border-dashed"
+            >
               <h1 className="font-bold text-3xl">{benefit.heading}</h1>
               <Lottie className="w-[225px]" animationData={benefit.animation} />
               <p className="text-lg w-[325px]">{benefit.description}</p>
