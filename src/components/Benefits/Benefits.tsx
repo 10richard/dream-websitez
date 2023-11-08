@@ -14,7 +14,7 @@ const Benefits = () => {
           {BenefitsList.map((benefit, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center border border-black p-10 rounded-lg border-dashed"
+              className="flex flex-col items-center border border-black min-[445px]:p-10 p-3 py-5 rounded-lg border-dashed"
             >
               <h1 className="font-bold text-3xl">{benefit.heading}</h1>
               <Lottie className="w-[225px]" animationData={benefit.animation} />
