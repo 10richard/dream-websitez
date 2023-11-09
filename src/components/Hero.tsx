@@ -1,5 +1,6 @@
 import cloud1 from "../assets/cloud1.png";
 import cloud2 from "../assets/cloud2.png";
+import MainButton from "./MainButton";
 
 const Hero = () => {
   return (
@@ -13,10 +14,8 @@ const Hero = () => {
         </h1>
         <h2 className="text-2xl"> Empowering your online presence.</h2>
 
-        <div className="mt-10 bg-black text-white w-[250px] self-center cursor-pointer px-10 py-4 rounded-xl relative hover:-translate-y-2 duration-300">
-          <a className="font-bold text-lg" href="#pricing">
-            See plans
-          </a>
+        <div className="w-[250px] self-center">
+          <MainButton text="See Plans" link="#pricing" />
         </div>
       </div>
 
