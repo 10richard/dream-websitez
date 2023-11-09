@@ -49,9 +49,11 @@ const Pricing = () => {
               />
               <h1 className="font-bold text-2xl">Get a custom quote</h1>
               <p>Tailored solutions to meet your unique requirements.</p>
-              <a className="font-bold text-sm" href="calendly">
-                Book a call
-              </a>
+              <div>
+                <a className="font-bold text-sm" href="calendly">
+                  Book a call
+                </a>
+              </div>
             </div>
 
             <span className="bg-black h-[2px]"></span>
@@ -59,9 +61,11 @@ const Pricing = () => {
             <div className="flex flex-col gap-5">
               <h1 className="font-bold text-2xl">Request a discovery call</h1>
               <p>Learn more about us and how we can help you.</p>
-              <a className="font-bold text-sm" href="calendly">
-                Book discovery call
-              </a>
+              <div>
+                <a className="font-bold text-sm" href="calendly">
+                  Book discovery call
+                </a>
+              </div>
             </div>
           </div>
         </div>
