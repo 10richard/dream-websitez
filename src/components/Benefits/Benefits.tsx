@@ -8,7 +8,7 @@ const Benefits = () => {
       <div className="flex flex-col justify-center items-center text-center gap-16">
         <div className="grid gap-5">
           <h1 className="text-5xl font-bold">What's Included</h1>
-          <p className="text-xl">Our Offerings.</p>
+          <p className="text-xl">Excellence in Every Detail.</p>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10">
           {BenefitsList.map((benefit, idx) => (

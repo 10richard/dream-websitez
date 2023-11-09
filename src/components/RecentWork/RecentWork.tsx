@@ -6,7 +6,7 @@ const RecentWork = () => {
       <div className="w-5/6 flex flex-col justify-center gap-16">
         <div className="grid gap-5 text-center">
           <h1 className="text-5xl font-bold">Recent Work</h1>
-          <p className="text-xl">Our Latest Creations.</p>
+          <p className="text-xl">Latest Creations.</p>
         </div>
 
         <div className="grid min-[850px]:grid-cols-2 gap-10">
