@@ -7,14 +7,14 @@ interface MainButtonProps {
 
 const MainButton = ({ text, link }: MainButtonProps) => {
   return (
-    <button
-      type="button"
-      className="w-full bg-black text-white text-center px-10 py-4 rounded-xl relative hover:-translate-y-2 shadow-[5px_4px_2px_#A9A9A9] hover:shadow-[7px_6px_2px_#A9A9A9] duration-300"
-    >
-      <a className="font-bold text-lg" href={link}>
+    <a className="font-bold text-lg" href={link}>
+      <button
+        type="button"
+        className="w-full bg-black text-white text-center px-10 py-4 rounded-xl relative hover:-translate-y-2 shadow-[5px_4px_0px_#A9A9A9] hover:shadow-[7px_6px_0px_#A9A9A9] duration-300"
+      >
         {text}
-      </a>
-    </button>
+      </button>
+    </a>
   );
 };
 
