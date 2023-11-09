@@ -9,7 +9,7 @@ const RecentWork = () => {
           <p className="text-xl">Our Latest Creations.</p>
         </div>
 
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid min-[850px]:grid-cols-2 gap-10">
           {RecentWorkList.map((project, idx) => (
             <div key={idx} className="group overflow-hidden shadow-lg">
               <a href={project.creditLink} target="_blank">
