@@ -3,7 +3,7 @@ import fiveStars from "../../assets/five-stars.svg";
 
 const Testimonials = () => {
   return (
-    <section className="flex justify-center w-full py-20 bg-secondary">
+    <section className="flex justify-center w-full py-20 bg-primary">
       <div className="w-5/6 flex flex-col justify-center gap-16">
         <div className="grid gap-5 text-center">
           <h1 className="text-5xl font-bold">Testimonials</h1>
