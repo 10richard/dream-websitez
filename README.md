@@ -17,5 +17,5 @@ Got inspiration for page design from designjoy and videsigns
 # Screenshots of the Project
 
 <p>
-    <img src="./src/assets/webpage-ss.png">
+    <img src="./src/assets/webpage-screenshot.png">
 </p>
