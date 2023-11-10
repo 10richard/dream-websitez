@@ -50,7 +50,11 @@ const Pricing = () => {
               <h1 className="font-bold text-2xl">Get a custom quote</h1>
               <p>Tailored solutions to meet your unique requirements.</p>
               <div>
-                <a className="font-bold text-sm" href="calendly">
+                <a
+                  className="font-bold text-sm"
+                  target="_blank"
+                  href="https://calendly.com/dreamwebsitez/30min"
+                >
                   Book a call
                 </a>
               </div>
@@ -62,7 +66,11 @@ const Pricing = () => {
               <h1 className="font-bold text-2xl">Request a discovery call</h1>
               <p>Learn more about us and how we can help you.</p>
               <div>
-                <a className="font-bold text-sm" href="calendly">
+                <a
+                  className="font-bold text-sm"
+                  target="_blank"
+                  href="https://calendly.com/dreamwebsitez/30min"
+                >
                   Book discovery call
                 </a>
               </div>

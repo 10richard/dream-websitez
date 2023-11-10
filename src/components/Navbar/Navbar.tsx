@@ -38,21 +38,31 @@ const Navbar = () => {
         </a>
 
         <ul className="flex gap-10 font-bold text-sm">
-          <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
-            <a href="#benefits">Benefits</a>
-          </li>
-          <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
-            <a href="#recentwork">Recent Work</a>
-          </li>
-          <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
-            <a href="#pricing">Pricing</a>
-          </li>
-          <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
-            <a href="#faq">FAQs</a>
-          </li>
-          <li className="bg-gray-800 hover:text-black hover:bg-secondary p-3 rounded-full duration-150 cursor-pointer">
-            <p className="contact">Contact</p>
-          </li>
+          <a href="#benefits">
+            <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
+              Benefits
+            </li>
+          </a>
+          <a href="#recentwork">
+            <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
+              Recent Work
+            </li>
+          </a>
+          <a href="#pricing">
+            <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
+              Pricing
+            </li>
+          </a>
+          <a href="#faq">
+            <li className="hover:text-black hover:bg-white p-3 rounded-full duration-150 cursor-pointer">
+              FAQs
+            </li>
+          </a>
+          <a target="_blank" href="https://calendly.com/dreamwebsitez/30min">
+            <li className="bg-gray-800 hover:text-black hover:bg-secondary p-3 rounded-full duration-150 cursor-pointer">
+              Contact
+            </li>
+          </a>
         </ul>
       </div>
 
