@@ -4,7 +4,7 @@ interface NavbarListProps {
 }
 
 export const NavbarList: NavbarListProps[] = [
-    {name: "Benefits", link: "benfits"},
+    {name: "Benefits", link: "benefits"},
     {name: "Recent Work", link: "recentwork"},
     {name: "Pricing", link: "pricing"},
     {name: "FAQs", link: "faq"},
