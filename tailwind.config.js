@@ -9,9 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#B1B2FF",
-        secondary: "#AAC4FF",
+        primary: "#CCCCFF",
+        secondary: "#E4F1FF",
         pink: "#EBC7E8",
+        deeppurple: "#9400FF"
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans]
