@@ -4,8 +4,7 @@
 
 A landing page for a web design agency aimed to captivate clients seeking web design services
 
-Experimented with keyframes
-Experimented with lottie animations
+Experimented with keyframes and lottie animations
 
 Got inspiration for page design from designjoy and videsigns
 
