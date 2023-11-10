@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { NavbarList } from "./NavbarList";
 import arrowUp from "../../assets/arrow-up.png";
 import logo from "../../assets/logo.png";
