@@ -96,7 +96,7 @@ const Navbar = () => {
         >
           {NavbarList.map((nav, idx) => (
             <li key={idx} className="hover:text-deeppurple">
-              <a href={`#${nav.link}`}>{nav.name}</a>
+              <a href={nav.link}>{nav.name}</a>
             </li>
           ))}
         </ul>
