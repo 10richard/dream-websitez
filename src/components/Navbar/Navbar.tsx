@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { NavbarList } from "./NavbarList";
 import arrowUp from "../../assets/arrow-up.png";
 import logo from "../../assets/logo.png";
@@ -89,14 +89,13 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Make the navbar translate down on toggle */}
         <ul
           className={`flex flex-col gap-10 bg-white w-full font-bold pl-10 py-10 ${
             toggle ? null : "hidden"
           }`}
         >
           {NavbarList.map((nav, idx) => (
-            <li key={idx} className="hover:text-pink">
+            <li key={idx} className="hover:text-deeppurple">
               <a href={`#${nav.link}`}>{nav.name}</a>
             </li>
           ))}
