@@ -9,7 +9,7 @@ const Hero = () => {
       className="flex justify-center items-center bg-primary h-[90vh] relative overflow-hidden"
     >
       <div className="hero-text z-30 w-[900px] flex flex-col gap-5 text-center min-[785px]:mt-28 mt-20">
-        <h1 className="font-bold text-7xl max-[800px]:text-5xl">
+        <h1 className="font-bold text-7xl max-[800px]:text-5xl max-[800px]:leading-snug leading-snug">
           Transforming Dreams into Digital Reality
         </h1>
         <h2 className="text-2xl"> Empowering your online presence.</h2>
