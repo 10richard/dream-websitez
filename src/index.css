@@ -11,7 +11,7 @@ html {
     animation-name: slideinnavbar;
 }
 
-.hero-text, #benefits {
+.hero-text {
     animation-duration: 1s;
     animation-name: slideinfrombottom;
 }
