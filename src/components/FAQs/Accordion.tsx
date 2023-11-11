@@ -16,19 +16,19 @@ const Accordion = ({ question, answer }: AccordionProps) => {
         className="flex justify-between items-center gap-10 w-full"
         onClick={() => setToggle((toggle) => !toggle)}
       >
-        <p className="font-bold text-lg min-[625px]:text-xl text-left">
-          {question}
-        </p>
+        <div className="grid text-left gap-3">
+          <p className="font-bold text-lg min-[625px]:text-xl">{question}</p>
+          <p className={`${toggle ? "" : "hidden"}`}>{answer}</p>
+        </div>
+
         <img
-          className={`w-[35px] ${toggle ? "rotate-180" : null} duration-500`}
+          className={`w-[35px] ${
+            toggle ? "rotate-180" : null
+          } duration-500 self-start`}
           src={chevron}
           alt="Chevron down"
         />
       </button>
-
-      <div className={`${toggle ? "" : "hidden"}`}>
-        <p>{answer}</p>
-      </div>
       <span className="bg-black h-[1px] my-2"></span>
     </div>
   );
