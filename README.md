@@ -13,7 +13,7 @@ Got inspiration for page design from designjoy and videsigns
 <p>∙ React w/ Typescript</p>
 <p>∙ Tailwind</p>
 
-# Screenshots of the Project
+# Screenshot of the Project
 
 <p>
     <img src="./src/assets/webpage-screenshot.png">
